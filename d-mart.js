@@ -66,7 +66,7 @@ let isDown2 = false;
 let products = [
  
   { id: 1, name: 'Malkist Cheese Flavoured Crunchy Layered Crackers : 138 gms', price: 45, image: '/assets/MAR120005509xx27MAR22_5_B.jpg' },
-  { id: 2, name: 'Slurrp Farm Little Millet Mild Masala Noodles : 192 gm ', price: 64, image: '/assets/b2.jpg' },
+  { id: 2, name: 'Slurrp Farm Little Millet Mild Masala Noodles : 192 gm ', price: 64, image: '/../assets/b2.jpg' },
   { id: 3, name: 'Borges Apple Cider Vinegar With The Mother : 355 ml', price: 319, image: '/assets/b3.jpg' },
   { id: 4, name: 'Organic India Organic Cow Ghee : 500 ml', price: 575, image: '/assets/b4.jpg' },
   { id: 5, name: 'Raw Pressery Coconut Water : 200 ml', price: 45, image: '/assets/b5.jpg' },
