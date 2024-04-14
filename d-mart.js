@@ -174,3 +174,26 @@ function toggleCart() {
 }
 
 renderProducts();
+
+// search 
+const placeholders = ["Rice", "Sugar", "Tea", "Biscuits"];
+  let index = 0;
+  const animatedPlaceholder = document.getElementById('animatedPlaceholder');
+
+  function cyclePlaceholder() {
+    // Begin swipe out animation
+    animatedPlaceholder.style.animation = 'swipeOut 0.5s forwards';
+
+    // Change placeholder text and swipe in after current swipe out animation
+    setTimeout(() => {
+      index = (index + 1) % placeholders.length;
+      animatedPlaceholder.textContent = `${placeholders[index]}`;
+      animatedPlaceholder.style.animation = 'swipeIn 0.5s forwards';
+    }, 500); // This timeout duration should match the swipe out animation duration
+  }
+
+  // Start the cycle with the first placeholder
+  cyclePlaceholder();
+
+  // Continue cycling placeholders every 3 seconds
+  setInterval(cyclePlaceholder, 3000);
