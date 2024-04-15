@@ -402,6 +402,7 @@
   object-position: center;
   width: 14px;
   align-self: start;
+  margin-top: 3px;
 }
 
 .categories-text {
@@ -715,7 +716,7 @@
 .swiper-container {
   display: flex;
   overflow-x: auto;
-  cursor: grab;
+  cursor: pointer;
   gap: 48px;
   scroll-behavior: smooth;
   /* Add the following lines to hide the scrollbar */
@@ -750,19 +751,19 @@
   border: none;
   cursor: pointer;
   outline: none;
-  z-index: 10;
+  /* z-index: 10; */
 }
 .scroll-button svg {
   fill: #25a541;
 }
 .scroll-button.left {
-  left: 0;
-  top: 50%;
+  left: -25px;
+  top: 40%;
   transform: translateY(-50%);
 }
 .scroll-button.right {
-  right: 0;
-  top: 50%;
+  right: -25px;
+  top: 40%;
   transform: translateY(-50%);
 }
 .swiper-container:active {
@@ -795,7 +796,8 @@ display: none; /* For Chrome, Safari, and Opera */
   white-space: nowrap;
   overflow-x: hidden;
   position: relative;
-  cursor: grab;
+  cursor: pointer;
+  scroll-behavior: smooth;
 }
 .product-card {
   background: #fff;
@@ -830,10 +832,10 @@ display: none; /* For Chrome, Safari, and Opera */
   background: #25a541;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   cursor: pointer;
   transform: translateY(-50%);
-  z-index: 22;
+  /* z-index: 22; */
 }
 .scroll-left2 {
   left: 0;
@@ -925,6 +927,8 @@ display: none; /* For Chrome, Safari, and Opera */
   }
   .scroll-button2{
     top: 56%;
+  padding: 8px 6px;
+
   }
 }
 @media (max-width: 425px) {
@@ -1083,7 +1087,6 @@ display: none; /* For Chrome, Safari, and Opera */
   padding: 16px 0;
   text-align: center;
   border-top: 1px solid #d3d3d3;
-  margin-top: 52px;
 }
 
 @media (max-width: 768px) {
@@ -1092,6 +1095,9 @@ display: none; /* For Chrome, Safari, and Opera */
   }
   .footer-links{
     flex-direction: column;
+  }
+  .link-column{
+    padding-bottom: 10px;
   }
 }
 
@@ -1134,6 +1140,9 @@ display: none; /* For Chrome, Safari, and Opera */
   .h1{
     font-size: 16px;
 
+  }
+  .copyright-text{
+    font-size: 12px;
   }
 }
 
