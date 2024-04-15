@@ -53,7 +53,7 @@ var container = document.getElementById('swiper-container');
             if (!isDown) return;
             e.preventDefault();
             var x = e.pageX - container.offsetLeft;
-            var walk = (x - startX) * 3; // Multiplier for sensitivity
+            var walk = (x - startX) * 3;
             container.scrollLeft = scrollLeft - walk;
         });
 
@@ -115,7 +115,7 @@ carousel.addEventListener('mousemove', (e) => {
   if (!isDown2) return;
   e.preventDefault();
   const x = e.pageX - carousel.offsetLeft;
-  const walk = (x - startX2) * 3; //scroll-fast
+  const walk = (x - startX2) * 3; 
   carousel.scrollLeft = scrollLeft2 - walk;
 });
 
@@ -127,7 +127,7 @@ function scrollProductCarousel(direction) {
 
 function renderCart() {
   const cartItemsContainer = document.getElementById('cartItems');
-  cartItemsContainer.innerHTML = ''; // Clear cart items
+  cartItemsContainer.innerHTML = ''; 
   let total = 0;
   Object.values(cart).forEach(item => {
     total += item.quantity * item.price;
@@ -181,19 +181,15 @@ const placeholders = ["Rice", "Sugar", "Tea", "Biscuits"];
   const animatedPlaceholder = document.getElementById('animatedPlaceholder');
 
   function cyclePlaceholder() {
-    // Begin swipe out animation
     animatedPlaceholder.style.animation = 'swipeOut 0.5s forwards';
 
-    // Change placeholder text and swipe in after current swipe out animation
     setTimeout(() => {
       index = (index + 1) % placeholders.length;
       animatedPlaceholder.textContent = `${placeholders[index]}`;
       animatedPlaceholder.style.animation = 'swipeIn 0.5s forwards';
-    }, 500); // This timeout duration should match the swipe out animation duration
+    }, 500); 
   }
 
-  // Start the cycle with the first placeholder
   cyclePlaceholder();
 
-  // Continue cycling placeholders every 3 seconds
   setInterval(cyclePlaceholder, 3000);
