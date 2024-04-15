@@ -1102,11 +1102,12 @@ display: none; /* For Chrome, Safari, and Opera */
 .placeholder-animation {
   position: absolute;
   top: 50%;
-  left: 86px;
+  left: 84px;
   transform: translateY(-50%);
   font-family: 'Mulish', sans-serif;
   font-size: 14px;
   line-height: 21px;
+  font-weight: 550;
   color: #878787;
   opacity: 0; /* Initial state - invisible */
   transition: all 0.5s ease-in-out;
@@ -1121,3 +1122,14 @@ display: none; /* For Chrome, Safari, and Opera */
   0% { transform: translateY(50%); opacity: 0; }
   100% { transform: translateY(-50%); opacity: 1; }
 }
+
+@media (max-width: 768px) {
+  .placeholder-animation{
+    font-size: 10px;
+    left: 62px;
+  }
+  .footer-bottom{
+    margin-top: 0;
+  }
+}
+
