@@ -879,7 +879,11 @@ display: none;
 .close-button {
   font-size: 24px;
 }
-
+@media (max-width: 768px) {
+  .scroll-button2{
+    top: 56%;
+  }
+}
 @media (max-width: 425px) {
   .product-card {
     width: 180px;
@@ -909,6 +913,9 @@ display: none;
 @media (max-width: 768px) {
   .plus{
     display: flex;
+  }
+  .p-name{
+    width: 210px;
   }
 }
 
