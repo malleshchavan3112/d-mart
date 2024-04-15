@@ -1,8 +1,8 @@
 var image=[
-    "/assets/DMart Grocery.jpg",
-    "/assets/image_url=https_3A_2F_2Fcdn.dmart.in_2Fimages_2Frwd_2Fbanners_2Fhmpg_2F1jan24-crsl-serveware.jpg",
-    "/assets/The Beauty Store.jpg",
-    "/assets/Women’s Corner.jpg"
+    "./assets/DMart Grocery.jpg",
+    "./assets/image_url=https_3A_2F_2Fcdn.dmart.in_2Fimages_2Frwd_2Fbanners_2Fhmpg_2F1jan24-crsl-serveware.jpg",
+    "./assets/The Beauty Store.jpg",
+    "./assets/Women’s Corner.jpg"
     
 
 ]
@@ -65,16 +65,16 @@ let scrollLeft2;
 let isDown2 = false;
 let products = [
  
-  { id: 1, name: 'Malkist Cheese Flavoured Crunchy Layered Crackers : 138 gms', price: 45, image: '../assets/MAR120005509xx27MAR22_5_B.jpg' },
-  { id: 2, name: 'Slurrp Farm Little Millet Mild Masala Noodles : 192 gm ', price: 64, image: '../assets/b2.jpg' },
-  { id: 3, name: 'Borges Apple Cider Vinegar With The Mother : 355 ml', price: 319, image: '/assets/b3.jpg' },
-  { id: 4, name: 'Organic India Organic Cow Ghee : 500 ml', price: 575, image: '/assets/b4.jpg' },
-  { id: 5, name: 'Raw Pressery Coconut Water : 200 ml', price: 45, image: '/assets/b5.jpg' },
-  { id: 6, name: 'RiteBite Max Protein Daily Choco Almond Bar : 50 gms', price: 56, image: '/assets/b6.jpg' },
-  { id: 7, name: 'RiteBite Max Protein Daily Choco Classic Bar : 50 gms', price: 55, image: '/assets/b7.jpg' },
-  { id: 8, name: 'Gramiyaa Wood Cold Pressed Coconut Oil : 500 ml', price: 217, image: '/assets/b8.jpg' },
-  { id: 9, name: 'Colombian Brew Instant Coffee Original : 100 gms', price: 149, image: '/assets/b9.jpg' },
-  { id: 10, name: 'Davidoff Coffee Crema Intense : 90 gms', price: 498, image: '/assets/b10.jpg' },
+  { id: 1, name: 'Malkist Cheese Flavoured Crunchy Layered Crackers : 138 gms', price: 45, image: './assets/MAR120005509xx27MAR22_5_B.jpg' },
+  { id: 2, name: 'Slurrp Farm Little Millet Mild Masala Noodles : 192 gm ', price: 64, image: './assets/b2.jpg' },
+  { id: 3, name: 'Borges Apple Cider Vinegar With The Mother : 355 ml', price: 319, image: './assets/b3.jpg' },
+  { id: 4, name: 'Organic India Organic Cow Ghee : 500 ml', price: 575, image: './assets/b4.jpg' },
+  { id: 5, name: 'Raw Pressery Coconut Water : 200 ml', price: 45, image: './assets/b5.jpg' },
+  { id: 6, name: 'RiteBite Max Protein Daily Choco Almond Bar : 50 gms', price: 56, image: './assets/b6.jpg' },
+  { id: 7, name: 'RiteBite Max Protein Daily Choco Classic Bar : 50 gms', price: 55, image: './assets/b7.jpg' },
+  { id: 8, name: 'Gramiyaa Wood Cold Pressed Coconut Oil : 500 ml', price: 217, image: './assets/b8.jpg' },
+  { id: 9, name: 'Colombian Brew Instant Coffee Original : 100 gms', price: 149, image: './assets/b9.jpg' },
+  { id: 10, name: 'Davidoff Coffee Crema Intense : 90 gms', price: 498, image: './assets/b10.jpg' },
   
  
 ];
