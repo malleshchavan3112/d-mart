@@ -1131,5 +1131,11 @@ display: none; /* For Chrome, Safari, and Opera */
   .footer-bottom{
     margin-top: 0;
   }
+  .h1{
+    font-size: 16px;
+
+  }
 }
+
+
 
