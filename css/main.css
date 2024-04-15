@@ -928,6 +928,9 @@ display: none;
   display: flex;
   
  }
+ .p-name{
+  width: 155px;
+ }
 }
 .hover::after{
   content: '';
