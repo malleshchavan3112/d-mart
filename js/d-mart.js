@@ -1,8 +1,8 @@
 var image=[
-    "assets/DMart Grocery.jpg",
-    "/assets/image_url=https_3A_2F_2Fcdn.dmart.in_2Fimages_2Frwd_2Fbanners_2Fhmpg_2F1jan24-crsl-serveware.jpg",
-    "/assets/The Beauty Store.jpg",
-    "/assets/Women’s Corner.jpg"
+    "./assets/DMart Grocery.jpg",
+    "./assets/image_url=https_3A_2F_2Fcdn.dmart.in_2Fimages_2Frwd_2Fbanners_2Fhmpg_2F1jan24-crsl-serveware.jpg",
+    "./assets/The Beauty Store.jpg",
+    "./assets/Women’s Corner.jpg"
     
 
 ]
