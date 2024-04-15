@@ -766,7 +766,7 @@ display: none;
 }
 .carousel {
   white-space: nowrap;
-  overflow-x: hidden;
+  overflow-x: auto;
   position: relative;
   cursor: pointer;
   scroll-behavior: smooth;
